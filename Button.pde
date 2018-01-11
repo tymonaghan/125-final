@@ -29,8 +29,8 @@ class Button {
   } //end display
 
   void clickCheck(int mX_, int mY_, int buttonFunction_) {
-    mX = mX_;
-    mY = mY_;
+    int mX = mX_;
+    int mY = mY_;
     buttonFunction = buttonFunction_;
     if (mousePressed == true) {
       if (mX>150 && mX<350 && mY <yPos+25 && mY > yPos-25) {

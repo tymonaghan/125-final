@@ -1,15 +1,3 @@
-void drawBackground(boolean moveBackground) {
-  //LOGIC BLOCK TO DETERMINE WHETHER BACKGROUND IS MOVING OR STATIC
-  if (moveBackground) {
-    movingBackground(xyz%60);
-  } else {
-    movingBackground(0);
-    strokeWeight(3);
-    fill(colorScheme[2]);
-    quad(30, height, 55, height-35, width-55, height-35, width-30, height); //draw quad for floor -- only when !movingBackground
-  }
-}//end drawBackground
-
 void movingBackground(int moveRate_) {
   int moveRate = moveRate_;
   stroke(0);

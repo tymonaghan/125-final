@@ -6,12 +6,12 @@ class Item {
   PImage pie;
   PImage pizza;
 
-  //platform constructor:
+  //item constructor:
   Item(int xpos_, int special_) {
     ypos=-(int(random(300)));
     xpos = xpos_;
     if (special_==1) {
-          pie = loadImage("pizza.png");
+      pie = loadImage("pizza.png");
 
       special = true;
       iColor = color(255, 150, 200);
@@ -24,26 +24,25 @@ class Item {
     }
   } //end constructor
 
-  void display() { //function to draw platforms
-    image(pie,xpos,ypos);
+  void display() { //function to draw items
+    image(pie, xpos, ypos);
     ypos+=gameSpeed; //speed at which items will fall (gameSpeed)
   }
-  
-  void display(int special_) {
-    image (pizza,xpos,ypos);
-    ypos+=gameSpeed; 
-  }
+
+  /*void display(int special_) {
+   image (pizza,xpos,ypos);
+   ypos+=gameSpeed; 
+   }*/
 
   void setColor(int r) {
     iColor = color(r, 150, 200);
   }
-  
-  int getItemX(){
+
+  int getItemX() {
     return xpos;
   } //end getItemX
-  
-  int getItemY(){
+
+  int getItemY() {
     return ypos;
   } //end getItemY
-
 }//end item classx

@@ -1,8 +1,8 @@
 int drawWater(int waterState_) { //waterState 0 = puddle, game start.  waterState 1 = gameplay, 75. waterState 2 = rising, fail condition
   int waterHeight = 75;
-  if (waterState==0) { //if state is 0 set water depth to 10
-    waterHeight =10;
-  } else if (waterState == 1) { //if state is 1 set water depth to 75
+  if (waterState_==0) { //if state is 0 set water depth to 10
+    waterHeight =25;
+  } else if (waterState_ == 1) { //if state is 1 set water depth to 75
     waterHeight=75;
   } else {
     waterHeight = riseWater();
@@ -23,8 +23,6 @@ int riseWater() {
   //println(waterHeight);
   if (b < height) {
   b+=5;
-  } else {
-    failMenu();
   }
   return waterHeight;
 }
