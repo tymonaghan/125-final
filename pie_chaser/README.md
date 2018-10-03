@@ -4,17 +4,15 @@ A vertical-scrolling action game. Created for COMP-125 @ Loyola University Chica
 
 ## Getting Started
 
-Pie Chaser currently requires the Processing IDE to run. Open project_125_final.pde in the Processing IDE and click Run to play!
+Pie Chaser is available as a binary executable program for Windows and Linux.
 
 ### Installing
 
-- Install the Processing IDE ([link to Processing download page](https://processing.org/download/))
+- Choose the application.* folder in the repo above, where * matches your OS
 
-- Clone this repo to your local device
+- Download the application folder to your machine
 
-- Open the Processing IDE. Click file > open and select the folder where you cloned the repo
-
-- Open project_125_final.pde in the Processing IDE and click Run
+- Run the pie_chaser.exe file in the folder you downloaded
 
 ## Built With
 
