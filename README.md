@@ -28,7 +28,7 @@ We use [GitHub](http://www.github.com) for versioning.
 
 **Tyler Monaghan** - *Project lead* - [portfolio.tylermonaghan.com](https://portfolio.tylermonaghan.com)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/tymonaghan/pie-chaser/contributors) who participated in this project.
 
 ## License
 
