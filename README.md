@@ -6,14 +6,6 @@ A vertical-scrolling action game. Created for COMP-125 @ Loyola University Chica
 
 Pie Chaser currently requires the Processing IDE to run. Open project_125_final.pde in the Processing IDE and click Run to play!
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
 - Install the Processing IDE ([link to Processing download page](https://processing.org/download/))
