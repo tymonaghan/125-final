@@ -8,14 +8,6 @@ The most reliable way to run Pie Chaser is by downloading the Processing IDE and
 
 Pie Chaser is also available as a binary executable program for Windows.
 
-## Built With
-
-* [Processing](https://processing.org/) - The language and coding environment used
-
-## Versioning
-
-We use [GitHub](http://www.github.com) for versioning.
-
 **Created by [Tyler Monaghan](https://portfolio.tylermonaghan.com)**
 
 ## License
